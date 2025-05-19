@@ -24,8 +24,7 @@ def romano_a_decimal(romano):
         return valores[romano[0]] + romano_a_decimal(romano[1:])
     
 #Ejemplos     
-print(romano_a_decimal("IIII"))     # 3
+print(romano_a_decimal("III"))     # 3
 print(romano_a_decimal("IX"))      # 9
 print(romano_a_decimal("LVIII"))   # 58
-print(romano_a_decimal("MCMXCIV")) # 1994
-
+print(romano_a_decimal("MCMXCIV")) # 1994 
