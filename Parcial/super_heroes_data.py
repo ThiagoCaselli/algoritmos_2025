@@ -888,6 +888,7 @@ superheroes = [
         "is_villain": False
     },
     {
+        "real_name": "James 'Logan' Howlett",
         "name": "Wasp",
         "alias": "Wasp",
         "real_name": "Janet van Dyne",
@@ -898,7 +899,6 @@ superheroes = [
     {
         "name": "Wolverine",
         "alias": "Wolverine",
-        "real_name": "James 'Logan' Howlett",
         "short_bio": "A mutant with regenerative healing and retractable claws.",
         "first_appearance": 1974,
         "is_villain": False

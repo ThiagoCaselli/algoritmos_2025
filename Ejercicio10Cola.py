@@ -1,4 +1,4 @@
-from cola import Queue
+from Parcial.cola import Queue
 from stack import Stack
 
 
@@ -36,7 +36,7 @@ def almacenar_en_pila_rango(cola: Queue, inicio="11:43", fin="15:57") -> int:
     return pila.size()
 
 
-# === EJEMPLO DE USO ===
+# Ejemplo de uso
 if __name__ == "__main__":
     cola = Queue()
     cola.arrive({"hora": "10:00", "app": "Facebook", "mensaje": "Like en tu foto"})

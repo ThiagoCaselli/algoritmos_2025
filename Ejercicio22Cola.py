@@ -1,4 +1,4 @@
-from cola import Queue
+from Parcial.cola import Queue
 from stack import Stack
 
 
@@ -58,7 +58,7 @@ def procesar_mcu(cola: Queue):
         print("   ", item)
     print("f) Carol Danvers está en la cola:", "Sí, es " + carol_encontrada if carol_encontrada else "No se encuentra")
 
-# === EJEMPLO DE USO ===
+# Ejemplo de uso
 if __name__ == "__main__":
     cola = Queue()
     cola.arrive({"personaje": "Tony Stark", "superheroe": "Iron Man", "genero": "M"})
